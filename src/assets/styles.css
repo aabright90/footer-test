@@ -1,0 +1,97 @@
+body {
+    font-family: "Avenir LT Pro";
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container.main {
+    position: relative;
+}
+
+.footer {
+    position: absolute;
+    background-color: rgb(24 160 251);
+    color: white;
+    width: 100%;
+}
+
+.legal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.legal, .legal-text, .legal-link {
+    font-size: 9px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.legal-link {
+    margin-top: -10px;
+}
+
+.item {
+    border-bottom: 0.5px solid white;
+}
+
+.link {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.link.nav-link {
+    list-style: none;
+    border-bottom: none;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.link.nav-link > a {
+    color: white;
+}
+
+.inner-nav-links {
+    margin-bottom: 3rem;
+}
+
+.symbol {
+    font-weight: bold;
+}
+
+.accordion-link {
+    color: white;
+}
+
+.accordion-links > a {
+    border-bottom: none;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link {
+    list-style: none;
+}
+
+.socials {
+    margin-top: 2rem;
+    display: flex;
+    padding: 0;
+}
+
+.social-link {
+    margin: 8px;
+}
